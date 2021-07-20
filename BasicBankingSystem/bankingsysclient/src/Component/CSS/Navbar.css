@@ -1,0 +1,247 @@
+.loggedInUserName {
+  color: var(--secondaryColor);
+  font-weight: 800;
+  margin-left: 0.6rem;
+  list-style: none;
+  /* font-size: 1.4rem; */
+  font-size: 1.2rem;
+  text-transform: capitalize;
+} 
+
+.navitem {
+  text-align: right;
+  /* margin-top: 0.5rem; */
+  /* margin-right: 1rem;
+  font-size: 1.2rem; */
+  margin-right: 0.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+.navitemSubMenu {
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-right: 2px solid white;
+  /* padding-right: 0.5rem;
+  padding-left: 0.5rem; */
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  list-style: none;
+}
+
+.navitemSubMenu:last-child{
+  border: none;
+}
+
+.navitem :hover {
+  text-decoration: none;
+  color:var(--hoverLinkColor);
+}
+
+.navitemSubMenu :hover {
+  text-decoration: none;
+  color:var(--hoverLinkColor);
+}
+
+.navitem-style{
+  padding: 0.5rem;
+}
+.nav-pills  .navitem >a{
+  color:var(--primaryColor);
+}
+
+.logOutButton{
+  color: var(--secondaryColor);
+}
+
+.navBarSubMenuBand {
+  background-color: var(--primaryColor);
+}
+
+.logOutButton:hover{
+  color:var(--hoverLinkColor);
+  cursor: pointer;
+
+}
+
+/* ///////// */
+.main-nav{
+color: var(--secondaryColor);
+padding: 0.5rem;
+text-align: right;
+}
+
+.mainNavSubMenu {
+  color: white;
+  padding: 0.4rem;
+  text-align: right;
+}
+
+.main-nav-active {
+  color: white;
+  background-color: var(--primaryColor);
+  border-radius: 0.5rem;
+}
+
+.main-nav-multilevel-active {
+  color: white;
+  background-color: var(--primaryColor);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.mainNavActiveSubMenu {
+  color: white;
+  background-color: var(--secondaryColor); 
+  border-radius: 0.5rem;
+}
+
+.mainNavSubMenu:hover {
+  text-decoration: none;
+  color:var(--hoverLinkColor);
+}
+
+.main-nav:hover{
+text-decoration: none;
+color:var(--hoverLinkColor);
+}
+
+/* Note: Pre-defined class changed. Might affect some other pre-defined class */
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1);
+  margin: 0.8rem;
+}
+
+.navItemToBeDisplayed {
+  display: flex;
+}
+
+.navBarDropDown{
+  border: none; 
+  padding: 0.3rem;
+  margin-top: -0.3rem;
+  border-Radius: 0.5rem;
+  background-Color: white;
+  color: var(--secondaryColor);
+  text-decoration: none;
+  text-align: right;
+  outline: none;
+}
+
+.navBarDropDown:focus{
+  outline: none;
+}
+
+.navBarDropDownActive{
+  padding: 0.3rem;
+  margin-top: -0.3rem;
+  border-radius: 0.5rem;
+  background-color: var(--primaryColor);
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  outline: none;
+} 
+
+.navBarDropDownActive:focus{
+  outline: none;
+}
+
+/* ---------- User profile css: Start --------------- */
+
+.userProfileProfileIcon{
+  padding-bottom: 0.3rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--secondaryColor);
+}
+
+.userProfileProfileIcon:hover{
+  text-decoration: none;
+  color:var(--hoverLinkColor);
+}
+
+.userProfileFormLabel{
+  text-align: left;
+  margin-bottom: 0rem;
+  margin-left: 0.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.userProfileHeading{
+  margin-bottom: 0.4rem;
+  font-size: 1.5rem;
+  margin-left: 0rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--secondaryColor);
+}
+
+.userProfileFormPopover {
+  color: black;
+  width: 32%;
+  max-width: 32% !important;
+  padding: "0rem";
+  margin: "0rem";
+}
+
+.closeCurrentTab{
+  color: var(--secondaryColor);
+}
+
+.closeCurrentTab:hover{
+  color:var(--hoverLinkColor);
+  cursor: pointer;
+}
+
+.showNavBarInMobView {
+  display: none;
+}
+
+.showNavBarInWebView {
+  display: block;
+}
+
+@media(max-width: 1050px){
+
+    .userProfileFormPopover {
+      color: black;
+      width: 45%;
+      max-width: 45% !important;
+      padding: "0rem";
+      margin: "0rem";
+    }
+}  
+
+@media(max-width: 550px){
+
+  .userProfileFormPopover {
+    color: black;
+    width: 90%;
+    max-width: 90% !important;
+    padding: "0rem";
+    margin: "0rem";
+  }
+  .navItemToBeDisplayed {
+    display: flex;
+    flex-direction: column;
+  }
+  .navitem {
+    margin-top: 0.7rem;
+  }
+
+  .showNavBarInMobView {
+    display: block;
+  }
+
+  .showNavBarInWebView {
+    display: none;
+  }
+
+}
+
+/* ---------- User profile css: End --------------- */

@@ -1,0 +1,279 @@
+.addCustbox{
+  margin-top: 1rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  box-shadow:  0 0.3rem 0.7rem var(--primaryColor);
+  margin-bottom: 1rem;
+}
+
+.addCustbox .addCustForm{
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.addCustFormLabelWithRequiredFiled{
+  width: 25%;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.addCustFormLabelWithoutRequiredFiled{
+  width: 25%;
+  margin-top: 0.5rem;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.addCustInputAndError{
+  width: 75%;
+  text-align: left;
+}
+
+.addCustInputForm {
+ border:1px solid var(--primaryColor);
+ text-align: Left;
+ width: 100%;
+ border-radius: 5px;
+ height: 2.2rem;
+}
+
+.custAcquirdatetime {
+  text-align: Left;
+  width: 105%;
+  border-radius: 5px;
+  height: 2.2rem;
+  margin-left: -1.5rem;
+ }
+
+.addCustRequiredMarkStar{
+  color : var(--errorColor);
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+}
+
+.addCustError{
+  color : var(--errorColor);
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: left;
+}
+
+.addCustBtn{
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+  text-transform: uppercase;
+  color: white; 
+  margin-top: 0.5rem;
+  font-weight: 600;
+  text-transform: capitalize
+}
+
+.addCustBtn:hover{
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+  text-transform: uppercase;
+  color: white; 
+  margin-top: 0.5rem;
+  font-weight: 600;
+  text-transform: capitalize
+}
+
+.createOrderButton{
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+  text-transform: capitalize;
+  color: white; 
+  font-weight: 600;
+}
+
+.createOrderButton:hover{
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+  text-transform: capitalize;
+  color: white; 
+  font-weight: 600;
+}
+
+.viewAndEditIcon {
+  font-size: 1.1rem;
+  color: #0000EE;
+  cursor: pointer;
+}
+
+.viewAndEditIcon :hover {
+  font-size: 1rem;
+  color: var(--secondaryColor);
+  cursor: pointer;
+}
+
+.customerTableHeading{
+  font-size: 2rem;
+  color:#666666;
+  font-weight: 500;
+  text-align: center;
+}
+
+.headingForComponentsOfCrmPage{
+  font-size: 1.7rem;
+  color:#666666;
+  font-weight: 500;
+  text-align: center;
+}
+
+.addCustSavebtn{
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+  text-transform: uppercase;
+  color: white; 
+  padding: 0.3rem 1rem;
+  margin: 0.5rem;
+}
+
+.trackDevcbtn{
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+  text-transform: uppercase;
+  color: white; 
+  padding: 0.3rem 1rem;
+  margin: 0.5rem;
+  width: 70%;
+}
+
+.addCustSavebtn:hover{
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+  text-transform: uppercase;
+  color: white; 
+  padding: 0.3rem 1rem;
+  margin: 0.5rem;
+}
+.addCustIcon{
+  display: none
+}
+
+.selectedRadioBtn {
+/* input[type='radio'] { */
+  -webkit-appearance:none;
+  /* margin-top: 0.7rem; */
+  width: 0.7rem;
+  height: 0.7rem  ;
+  border:1px solid;
+  border-radius:50%;
+  outline: none;
+  background-color: white;
+  background-color: #e7e6e7;
+}
+
+#indicatingSelectedRow:hover {
+  box-shadow:0 0 5px 0px var(--secondaryColor) inset;
+}
+
+#indicatingSelectedRow:checked {
+  background: var(--secondaryColor);
+}
+
+.addProductIcon{
+  display: none;
+}
+
+.DonloadPdfIcon {
+  font-size: 1.1rem;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+
+@media(max-width: 550px){
+
+  .addCustFormLabelWithRequiredFiled{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  .addCustFormLabelWithoutRequiredFiled{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .addCustInputAndError{
+    width: 100%;
+  }
+
+  .customerTableHeading{
+    font-size: 1.2rem;
+    color:#666666;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .headingForComponentsOfCrmPage{
+    font-size: 1.3rem;
+    color:#666666;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .addCustBtn{
+    display: none;
+  }
+
+  .addCustBtn:hover{
+    display: none;
+  }
+
+  .addCustIcon{
+    display: block;
+    border: 2px solid;
+    border-radius: 15%;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    padding: 0.1rem;
+    font-size: 1.5rem;
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+    color: white;
+    text-align: center;
+  }
+
+  .addProductIcon{
+    display: block;
+    border: none;
+    border-radius: 50%;
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+    color: white;
+    text-align: center;
+  }
+
+  .addCustIcon:hover{
+    background-color: var(--secondaryColor);
+    border-color: var(--secondaryColor);
+    color: white; 
+  }
+
+  .addProductIcon:hover{
+    background-color: var(--secondaryColor);
+    border-color: var(--secondaryColor);
+    color: white; 
+  }
+}
